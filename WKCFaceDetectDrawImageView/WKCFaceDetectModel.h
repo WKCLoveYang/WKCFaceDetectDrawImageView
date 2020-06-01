@@ -35,7 +35,7 @@
 @property (nonatomic, assign) CGPoint leftEyebrow4;
 @property (nonatomic, assign) CGPoint leftEyebrow5;
 
-// 右眉毛(同左眼)
+// 右眉毛(同右眼)
 @property (nonatomic, assign) CGPoint rightEyebrow0;
 @property (nonatomic, assign) CGPoint rightEyebrow1;
 @property (nonatomic, assign) CGPoint rightEyebrow2;

@@ -117,7 +117,7 @@
         face.leftPupil = leftPupilValues[0].CGPointValue;
         
         
-        VNFaceLandmarkRegion2D *rightPupil = landmarks.leftPupil;
+        VNFaceLandmarkRegion2D *rightPupil = landmarks.rightPupil;
         NSArray <NSValue *>* rightPupilValues = [self pointsWithLanmarks:rightPupil image:_image observation:observation size:_imageViewSize mode:_imageViewMode];
         face.rightPupil = rightPupilValues[0].CGPointValue;
         
